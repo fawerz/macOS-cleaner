@@ -6,7 +6,7 @@
 
 ```shell
 sudo mkdir -p /usr/local/bin
-sudo chown ${USER}:staff /usr/local/bin
+sudo chown ${USER} /usr/local/bin
 ```
 
 ### Step 2: download [cleaner.sh](./cleaner.sh)
