@@ -13,7 +13,7 @@ sudo chown ${USER} /usr/local/bin
 
 ```shell
 cd /usr/local/bin
-git clone https://github.com/fawerz/app-cleaner.git
+download [cleaner.sh](./cleaner.sh)
 chmod +x /usr/local/bin/cleaner.sh
 ```
 
