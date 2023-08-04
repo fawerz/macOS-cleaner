@@ -6,6 +6,8 @@
 
 ```shell
 sudo mkdir -p /usr/local/bin
+```
+```shell
 sudo chown ${USER} /usr/local/bin
 ```
 
@@ -13,7 +15,9 @@ sudo chown ${USER} /usr/local/bin
 
 ```shell
 cd /usr/local/bin
+```
 download [cleaner.sh](./cleaner.sh)
+```shell
 chmod +x /usr/local/bin/cleaner.sh
 ```
 
