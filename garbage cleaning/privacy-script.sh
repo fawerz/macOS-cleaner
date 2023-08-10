@@ -284,18 +284,6 @@ rm -fv ~/Library/Application\ Support/Firefox/Profiles/*/sessionstore-backups/up
 
 
 # ----------------------------------------------------------
-# -----------------Delete Firefox passwords-----------------
-# ----------------------------------------------------------
-echo '--- Delete Firefox passwords'
-rm -fv ~/Library/Application\ Support/Firefox/Profiles/*/signons.txt
-rm -fv ~/Library/Application\ Support/Firefox/Profiles/*/signons2.txt
-rm -fv ~/Library/Application\ Support/Firefox/Profiles/*/signons3.txt
-rm -fv ~/Library/Application\ Support/Firefox/Profiles/*/signons.sqlite
-rm -fv ~/Library/Application\ Support/Firefox/Profiles/*/logins.json
-# ----------------------------------------------------------
-
-
-# ----------------------------------------------------------
 # ---------------Delete Firefox HTML5 cookies---------------
 # ----------------------------------------------------------
 echo '--- Delete Firefox HTML5 cookies'
