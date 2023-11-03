@@ -1,6 +1,5 @@
 # 🗑️app-cleaner
 
-## Setup guide
 
 ### Step 1: create `/usr/local/bin` directory
 
