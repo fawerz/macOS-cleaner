@@ -1,4 +1,4 @@
-# app-cleaner
+# 🗑️app-cleaner
 
 ## Setup guide
 
@@ -11,14 +11,20 @@ sudo mkdir -p /usr/local/bin
 sudo chown ${USER} /usr/local/bin
 ```
 
-### Step 2: download [cleaner.sh](./cleaner.sh)
+### Step 2: download [uninstall.sh](./uninstall.sh) script
 
 ```shell
 cd /usr/local/bin
 ```
-download [cleaner.sh](./cleaner.sh)
+download [uninstall.sh](./uninstall.sh)
 ```shell
-chmod +x /usr/local/bin/cleaner.sh
+chmod +x /usr/local/bin/uninstall.sh
+```
+
+### Step 3: Go
+
+```shell
+uninstall.sh /path/to/app.app
 ```
 
 👍

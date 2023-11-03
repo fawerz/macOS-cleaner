@@ -1,7 +1,7 @@
 #! /bin/bash
 
 if [ -z "$1" ] || [ "$1" = "--help" ]; then
-  printf "%s\n" "Usage: cleaner.sh /path/to/app.app"
+  printf "%s\n" "Usage: uninstall.sh /path/to/app.app"
   exit 0
 fi
 
@@ -27,7 +27,7 @@ sleep 1
 
 app_name=$(basename $1 .app)
 
-processes=($(pgrep -afil "$app_name" | grep -v "cleaner.sh"))
+processes=($(pgrep -afil "$app_name" | grep -v "uninstall.sh"))
 
 if [ ${#processes[@]} -gt 0 ]; then
   printf "%s\n" "${processes[@]}"
