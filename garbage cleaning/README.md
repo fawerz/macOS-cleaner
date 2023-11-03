@@ -1,6 +1,6 @@
-# garbage-cleaner
+# ♻️garbage-cleaner
 
-## Setup guide
+
 
 ### Step 1: download [script](./privacy-script.sh)
 
